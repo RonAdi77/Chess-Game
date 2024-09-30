@@ -1,4 +1,6 @@
 ## Project by: Ron Adi & Michael Benzekri
-# summary:
+# Summary:
+This is a learning project for improving code and OOP skils.
+
 
 

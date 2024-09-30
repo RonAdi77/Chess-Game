@@ -16,6 +16,8 @@ The project includes classes that represent the game board, pieces, piece, moves
   
   *Turn-based system for player moves.
 
+  *Resign option. 
+
 ## Game Logic Overview
 
 # Main Classes:
@@ -36,15 +38,26 @@ The project includes classes that represent the game board, pieces, piece, moves
 
   *Moves are validated according to chess rules (e.g., pawns can only move forward, knights move in an "L" shape).
 
-  *The game detects check and checkmate conditions.
+  *The game detects check, checkmate, stalemate and all draw conditions.
 
-# UML:
+# Project UML:
 
 ![image](https://github.com/user-attachments/assets/dfc6df8c-bed4-4ff9-a786-b7a072dd9aab)
 
 # Consule Board Display:
 
 ![AA50BCE0-65D6-414E-82C1-B3B237BDCFCE](https://github.com/user-attachments/assets/2f22d484-3f43-4153-8a6e-c4a8ddf41b53)
+
+# challenges:
+*In Piece class removeOwnCheck method - This is a very integral function in the program.\
+Its purpose is to get a raw array of legal moves and filter from it all the moves that lead to check.\
+The difficulty was to avoid entering an infinite recursion which leads to the collapse of the program.\
+In addition, the difficulty was in examining each move from the raw move array which one leads to chess and which one does not.\
+We solved this by creating an "experimental" board by copying the existing board and running the moves and tests on it.
+
+*One of the difficulties was planning a large project without knowing all the small details and still maintaining a beautiful and elegant code.
+
+
 
 
 

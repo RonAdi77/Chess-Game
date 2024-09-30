@@ -1,2 +1,4 @@
-# Chess-Game
-java OOP chess game
+## Project by: Ron Adi & Michael Benzekri
+# summary:
+
+

@@ -42,6 +42,11 @@ The project includes classes that represent the game board, pieces, piece, moves
 
 ![image](https://github.com/user-attachments/assets/dfc6df8c-bed4-4ff9-a786-b7a072dd9aab)
 
+# Consule Board Display:
+
+![AA50BCE0-65D6-414E-82C1-B3B237BDCFCE](https://github.com/user-attachments/assets/2f22d484-3f43-4153-8a6e-c4a8ddf41b53)
+
+
 
 
   

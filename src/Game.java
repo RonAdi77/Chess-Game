@@ -3,9 +3,7 @@ import java.util.ArrayList;
 public class Game {
     public static void main(String[] args) {
         Pieces board = new Pieces();
-//        Pieces b = new Pieces(Board.sanBoard());
         gameLoop(board);
-        System.exit(0);
     }
     public static void gameLoop(Pieces board){
         Box resign = new Box('r' , -1);

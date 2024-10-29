@@ -44,6 +44,26 @@ The project includes classes that represent the game board, pieces, piece, moves
 
 ![image](https://github.com/user-attachments/assets/dfc6df8c-bed4-4ff9-a786-b7a072dd9aab)
 
+Here’s a UI summary for your GitHub project repository:
+
+---
+
+# User Interface (UI) Overview
+
+This chess project now includes a graphical user interface (GUI) built in Java, enhancing the original console-based game. The GUI provides an intuitive, interactive chessboard that allows users to play a full chess game with visual feedback, making the experience more engaging and accessible.
+
+# Key UI Features
+
+- **Interactive Chessboard**: The board is dynamically rendered, showing pieces in their current positions and updating moves in real-time.
+- **Game State Indicators**: Information such as turn indication, check/checkmate warnings, and captured pieces is displayed clearly on the interface.
+  
+#### Technical Details
+
+- **JavaFX Integration**: The GUI is implemented with JavaFX, using FXML for layout definition to separate UI design from logic and improve code readability.
+- **MVC Architecture**: The application follows the Model-View-Controller pattern, with backend logic handling game rules, while the UI focuses on rendering and user interactions.
+  
+This UI upgrade brings a modern, interactive feel to the game, moving from a simple console interface to a full desktop chess application.
+
 # Console Board Display:
 
 ![AA50BCE0-65D6-414E-82C1-B3B237BDCFCE](https://github.com/user-attachments/assets/2f22d484-3f43-4153-8a6e-c4a8ddf41b53)

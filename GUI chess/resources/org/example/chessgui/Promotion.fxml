@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="400.0" style="-fx-background-color: #333333;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.chessgui.PromotionController">
+   <children>
+      <Label layoutX="85.0" layoutY="31.0" text="Choose Piece to promote:" textFill="WHITE">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Button fx:id="queen" layoutX="35.0" layoutY="104.0" maxHeight="70.0" maxWidth="70.0" minHeight="70.0" minWidth="70.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="70.0" prefWidth="70.0" style="-fx-text-fill: transparent;" text="Queen" />
+      <Button fx:id="bishop" layoutX="120.0" layoutY="104.0" maxHeight="70.0" maxWidth="70.0" minHeight="70.0" minWidth="70.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="70.0" prefWidth="70.0" style="-fx-text-fill: transparent;" text="Bishop" />
+      <Button fx:id="knight" layoutX="203.0" layoutY="104.0" maxHeight="70.0" maxWidth="70.0" minHeight="70.0" minWidth="70.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="70.0" prefWidth="70.0" style="-fx-text-fill: transparent;" text="Knight" />
+      <Button fx:id="rook" layoutX="288.0" layoutY="104.0" maxHeight="70.0" maxWidth="70.0" minHeight="70.0" minWidth="70.0" mnemonicParsing="false" onAction="#buttonPressed" prefHeight="70.0" prefWidth="70.0" style="-fx-text-fill: transparent;" text="Rook" />
+   </children>
+</AnchorPane>

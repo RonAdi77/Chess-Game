@@ -1,0 +1,522 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="anchorPane" prefHeight="700.0" prefWidth="950.0" style="-fx-background-color: #faddaf;" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.chessgui.GuiBoard">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#faddaf" height="600.0" layoutX="50.0" layoutY="50.0" stroke="#8d5018" strokeType="OUTSIDE" strokeWidth="10.0" width="600.0" />
+      <Button fx:id="a8" layoutX="50.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b8" layoutX="125.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c8" layoutX="200.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d8" layoutX="275.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e8" layoutX="350.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f8" layoutX="425.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g8" layoutX="500.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h8" layoutX="575.0" layoutY="50.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h8">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b7" layoutX="125.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c7" layoutX="200.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="a7" layoutX="50.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d7" layoutX="275.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f7" layoutX="425.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g7" layoutX="500.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e7" layoutX="350.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h7" layoutX="575.0" layoutY="125.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h7">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="a6" layoutX="50.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b6" layoutX="125.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c6" layoutX="200.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d6" layoutX="275.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e6" layoutX="350.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f6" layoutX="425.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g6" layoutX="500.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h6" layoutX="575.0" layoutY="200.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h6">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b5" layoutX="125.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c5" layoutX="200.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="a5" layoutX="50.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d5" layoutX="275.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f5" layoutX="425.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g5" layoutX="500.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e5" layoutX="350.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h5" layoutX="575.0" layoutY="275.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h5">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="a4" layoutX="50.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b4" layoutX="125.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c4" layoutX="200.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d4" layoutX="275.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e4" layoutX="350.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f4" layoutX="425.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g4" layoutX="500.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h4" layoutX="575.0" layoutY="350.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h4">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b3" layoutX="125.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c3" layoutX="200.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="a3" layoutX="50.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d3" layoutX="275.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f3" layoutX="425.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g3" layoutX="500.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e3" layoutX="350.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h3" layoutX="575.0" layoutY="425.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h3">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="a2" layoutX="50.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b2" layoutX="125.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c2" layoutX="200.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d2" layoutX="275.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e2" layoutX="350.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f2" layoutX="425.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g2" layoutX="500.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h2" layoutX="575.0" layoutY="500.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h2">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="b1" layoutX="125.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="b1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="c1" layoutX="200.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="c1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="a1" layoutX="50.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="a1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="d1" layoutX="275.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="d1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="f1" layoutX="425.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="f1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="g1" layoutX="500.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="g1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="e1" layoutX="350.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #8d5018; -fx-background-radius: 0; -fx-text-fill: transparent;" text="e1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="h1" layoutX="575.0" layoutY="575.0" maxHeight="75.0" maxWidth="75.0" minHeight="75.0" minWidth="75.0" mnemonicParsing="false" onAction="#buttonPress" prefHeight="75.0" prefWidth="75.0" style="-fx-background-color: #00000000; -fx-background-radius: 0; -fx-text-fill: transparent;" text="h1">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label layoutX="73.0" layoutY="22.0" text="a" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="22.0" text="b" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="22.0" text="c" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="298.0" layoutY="22.0" text="d" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="373.0" layoutY="22.0" text="e" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="22.0" text="f" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="523.0" layoutY="22.0" text="g" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="598.0" layoutY="22.0" text="h" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="73.0" layoutY="661.0" text="a" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="148.0" layoutY="661.0" text="b" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="223.0" layoutY="661.0" text="c" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="298.0" layoutY="661.0" text="d" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="373.0" layoutY="661.0" text="e" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="448.0" layoutY="661.0" text="f" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="523.0" layoutY="661.0" text="g" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="598.0" layoutY="661.0" text="h" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="83.0" text="8" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="158.0" text="7" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="225.0" text="6" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="300.0" text="5" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="383.0" text="4" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="458.0" text="3" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="525.0" text="2" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="29.0" layoutY="600.0" text="1" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="83.0" text="8" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="158.0" text="7" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="225.0" text="6" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="300.0" text="5" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="383.0" text="4" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="458.0" text="3" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="525.0" text="2" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Label layoutX="663.0" layoutY="600.0" text="1" textFill="#8d5018">
+         <font>
+            <Font name="System Bold" size="13.0" />
+         </font>
+      </Label>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="GREY" height="700.0" layoutX="700.0" stroke="BLACK" strokeType="INSIDE" width="250.0" />
+      <Label alignment="CENTER" layoutX="700.0" layoutY="19.0" prefHeight="26.0" prefWidth="250.0" text="Game Status:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="turnLabel" alignment="CENTER" layoutX="701.0" layoutY="62.0" prefHeight="26.0" prefWidth="250.0" text="White turn" wrapText="true">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="resginButton" layoutX="708.0" layoutY="657.0" mnemonicParsing="false" onAction="#resginButtonPressed" prefHeight="25.0" prefWidth="100.0" text="Resgin" />
+      <Button layoutX="836.0" layoutY="657.0" mnemonicParsing="false" onAction="#newGameButtonPressed" prefHeight="25.0" prefWidth="100.0" text="New Game" />
+      <Label alignment="CENTER" layoutX="700.0" layoutY="125.0" prefHeight="26.0" prefWidth="250.0" text="Score:">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="whiteScoreLabel" alignment="CENTER" layoutX="700.0" layoutY="167.0" prefHeight="26.0" prefWidth="250.0" text="White: 0" wrapText="true">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="blackScoreLabel" alignment="CENTER" layoutX="701.0" layoutY="212.0" prefHeight="26.0" prefWidth="250.0" text="Black: 0" wrapText="true">
+         <font>
+            <Font name="System Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

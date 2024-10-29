@@ -60,6 +60,12 @@ This chess project now includes a graphical user interface (GUI) built in Java, 
   
 This UI upgrade brings a modern, interactive feel to the game, moving from a simple console interface to a full desktop chess application.
 
+# UI Board Display:
+![Recording 2024-10-29 144054](https://github.com/user-attachments/assets/e18e0181-bfa1-4594-8a9a-9387d3fcaccb)
+
+## promotion Query:
+![promQuery](https://github.com/user-attachments/assets/a3c53684-5c4f-4d0f-8e08-aff13fc4b6ad)
+
 # Console Board Display:
 
 ![AA50BCE0-65D6-414E-82C1-B3B237BDCFCE](https://github.com/user-attachments/assets/2f22d484-3f43-4153-8a6e-c4a8ddf41b53)
